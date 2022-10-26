@@ -2,10 +2,17 @@
 import argparse
 #import pandas as pd
 import numpy as np
+import sklearn as sk
+from interlap import InterLap
+import eden.graph as eg
+import networkx as nx
+from ubergauss import tools
+import biofilm.algo.feature_selection as featsel
+import wget
 #import subprocess
 
 
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 
 """
 

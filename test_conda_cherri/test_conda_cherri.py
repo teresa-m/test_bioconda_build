@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 import argparse
-import pandas as pd
+#import pandas as pd
+import numpy as np
 #import subprocess
 
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 """
 

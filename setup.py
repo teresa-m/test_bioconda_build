@@ -1,4 +1,5 @@
-from setuptools import find_packages
+#!/usr/bin/env python3
+
 from setuptools import setup
 
 setup(
@@ -8,12 +9,7 @@ setup(
     author='Teresa Mueller',
     author_email='muellert@informatik.uni-freiburg.de',
     url='https://github.com/teresa-m/test_bioconda_build',
-    #install_requires=[],
-    #packages=find_packages(),
     scripts=['test_conda_cherri/test_conda_cherri.py'],
-    #entry_points={
-    #    'console_scripts'=[
-    #        'test-cherri-cli = test_conda_cherri.test_conda_cherri:main'
-    #    ],
-    #},
+    licence='GPL-3.0',
+    zip_safe=False,
 )

@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='test_bioconda_build',
-    version='1.0.4',
+    version='1.0.5',
     description='packate for testing Cherri depencies',
     author='Teresa Mueller',
     author_email='muellert@informatik.uni-freiburg.de',

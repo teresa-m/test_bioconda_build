@@ -23,7 +23,7 @@ Check out available modes
 
 test_conda_cherry.py -h
 
-__version__ = "1.0.4"
+__version__ = "1.0.5"
 
 """
 
